@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>照片墙</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .list {
+            width: 1300px;
+            height: 500px;
+            border: 4px solid skyblue;
+            margin: 200px 50px 200px 50px;
+        }
+
+        .list li {
+            height: 100%;
+            box-shadow: 0 0 20px #999;
+            float: left;
+            color: red;
+            font-size: 30px;
+        }
+
+        input[name="swith"] {
+            opacity: 0;
+            width: 100px;
+            height: 500px;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+        input[name="swith"]:checked {
+            width: 700px;
+        }
+
+        .list li:nth-child(1) {
+            background: url("./img/15.jpg") no-repeat center/cover
+        }
+
+        .list li:nth-child(2) {
+            background: url("./img/13.jpg") no-repeat center/cover
+        }
+
+        .list li:nth-child(3) {
+            background: url("./img/14.jpg") no-repeat center/cover
+        }
+
+        .list li:nth-child(4) {
+            background: url("./img/16.jpg") no-repeat center/cover
+        }
+
+        .list li:nth-child(5) {
+            background: url("./img/17.jpg") no-repeat center/cover
+        }
+
+        .list li:nth-child(6) {
+            background: url("./img/18.jpg") no-repeat center/cover
+        }
+
+        .list li:nth-child(7) {
+            background: url("./img/19.jpg") no-repeat center/cover
+        }
+
+        .ys {
+            width: 100%;
+            height: 800px;
+            background-color: #003c80b6;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="ys">
+        <ul class="list">
+            <li><input type="radio" name="swith"> </li>
+            <li><input type="radio" name="swith"> </li>
+            <li><input type="radio" name="swith"> </li>
+            <li><input type="radio" name="swith"> </li>
+            <li><input type="radio" name="swith"> </li>
+            <li><input type="radio" name="swith"> </li>
+            <li><input type="radio" name="swith"> </li>
+            <h2 >照片墙————国庆假期的分享</h2>
+        </ul>
+        
+    </div>
+    <audio src="E:\Welcome\HTML學習文件\我的网页\img\郭静 - 心墙 (蹦迪版)(DJ苏以沫版).mp3" autoplay></audio>
+</body>
+
+</html>

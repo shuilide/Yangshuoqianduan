@@ -1,0 +1,102 @@
+* {
+    margin: 0 ;
+    padding:0;
+
+    .box {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: #FF9B19;
+        flex-wrap: wrap;
+    }
+
+    .top {
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .top img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .top h1 {
+        color: #fff;
+        font-size: 30px;
+        margin: 20px 0;
+        letter-spacing: 5px;
+
+
+    }
+
+    .top {
+        color: #fff;
+    }
+
+    .box ul {
+        display: flex;
+        width: 80% ;margin:auto;
+        justify-content: space-between;
+
+
+
+    }
+
+    .bottom {
+        width: 80%;
+
+
+    }
+
+    .box ul li {
+        width: 20%;
+        border: 1px solid #FFFFFF;
+        list-style-type: none;
+        padding: 20px;
+        background-color: #fff;
+
+    }
+
+    .box ul li a {
+        display: flex;
+        width: 100% ;flex-wrap:wrap ;text-decoration: none;
+        color: FF9B18;
+        justify-content: center;
+    }
+
+
+    /*导航*/
+    .nav {
+        width: 90%;
+        color: #FF9B19;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        margin: 0 auto;
+    }
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #FF9B19
+    
+}
+
+.logo h3 {
+
+    font-size: 26px;
+    letter-spacing: 3px;
+
+}
+.bj{
+width: 100%;
+height: 2300px;
+background-color: #003c80b6;
+
+
+}
